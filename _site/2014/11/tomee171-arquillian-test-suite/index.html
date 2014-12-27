@@ -79,28 +79,33 @@ The torture never stops
 
         </div>
         <div class="col-md-9">
-            <div class="post">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/2014/11/tomee171-arquillian-test-suite">Nov 30, 2014 - Arquilian test suite extension doesn't work with tomee 1.7.1</a></h1>
+            
+            <div class="post-content">
+            <p><a href="http://arquillian.org/">Arquillian</a> lacks test suites but a very nice <a href="https://github.com/ingwarsw/arquillian-suite-extension">Arquillian test suite custom extension</a> exists.  Apart from offering Junit&#39;s @Suite functionality, it&#39;s  real advantage is that makes tests run faster, by allowing multiple Shrinkwrap deployments to be deployed at once. Without this every Arquillian test class run, needs a separate archive deployment, start and stop of the  managed or remote container. This worked very well for me, with Jboss 7.1 and Wildfly. Unfortunately due to some bug in Tomee&#39;s Arquilian adapter this doesn&#39;t work with Tomee 1.7.1 and is expected to be fixed at version 1.7.2.</p>
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+<p>The <a href="https://github.com/ingwarsw/arquillian-suite-extension/issues/14">original discussion</a> of the bug become a <a href="https://issues.apache.org/jira/browse/TOMEE-1349">Tomee issue</a>. A workaround, or alternative strategy if you prefer, specific to Tomee 1.7.x is presented <a href="http://rmannibucau.wordpress.com/2014/09/30/arquillian-tomee-and-big-applications-avoid-n-times-the-same-dump/">here</a>.</p>
 
-  <article class="post-content">
-    <p>John P. veteran Java programmer</p>
-
-<hr>
-
-<p>Some random bits about Java, Java EE and other topics.</p>
-
-<p>The blog title idea, came by paraphrasing a verse of a Frank Zappa song titled &quot;The torture never stops&quot;, while dealing with an unbelievable piece of spaghetti.</p>
-
-  </article>
-
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+                <a class="btn btn-default" href="/2014/12/markdown" class="next">Newer Post</a>
+              
+              
+                <a class="btn btn-default" href="/2014/02/ejb31-mdb-systemexception" class="previous">Older Post</a>
+              
 </div>
 
         </div>
     </div>
 </div>
+
+
 
 <div class="container-fluid">
     <div class="row-fluid">
