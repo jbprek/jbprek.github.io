@@ -2,7 +2,7 @@
 layout: post
 title:  "Top 10 Books for Advanced-level Java Developer"
 date:   2014-12-27 11:17:07
-categories: java 
+categories: java java-books
 ---
 
 I recently came through a post about [Top 10 Books for Advanced-level Java Developers](http://java.dzone.com/articles/top-10-books-advanced-level). In this post, although all of the listed books are respectable, not all of them are about the the advanced Java developer. Books like "Enterprise Integration Patterns", although one of my favorites, can be quite irrelevant to the non EE developer and while OSGI is a very interesting development, I personally, as EE developer haven't met so far, a use case where OSGI could be applied (have seen attempts to use it, when JCA would be the appropriate way to go). Also "The Java language specification" is a book for "Language Lawyers" and even a BAR exam like OCJP wont ask for so much Java language law expertise. Some familiarity with it's contents could be good, but trying to read it page by page would be a terrible waste of energy.
